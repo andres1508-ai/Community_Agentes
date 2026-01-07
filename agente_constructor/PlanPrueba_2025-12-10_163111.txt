@@ -1,0 +1,81 @@
+Título de la Prueba: Propuesta Plataforma FBD
+Descripción General: Evaluar la usabilidad y la conexión cultural de la propuesta de plataforma FBD, identificando áreas de mejora y oportunidades de innovación.
+
+===============================================
+Metadatos de la Prueba
+===============================================
+Flujo Digital: Plataforma FBD
+Autor: None
+Compañía: None
+Línea de Negocio: None
+Tipo de Prueba: None
+Tallaje Estimado: S (Small - 5-8 preguntas)
+Fecha Inicio: None
+Fecha Fin: None
+
+===============================================
+Contexto del Brief
+===============================================
+El proyecto Plataforma FBD busca crear una plataforma digital que conecte a voluntarios con organizaciones sociales de manera eficiente y significativa. Se espera que la plataforma sea intuitiva, accesible y culturalmente relevante para los usuarios latinoamericanos.
+
+La propuesta busca validar si el diseño y la arquitectura de información de la plataforma son comprensibles y usables para el público objetivo. Además, se quiere explorar el potencial de innovación a través de la aplicación de técnicas SIT (Systematic Inventive Thinking) para optimizar la experiencia del usuario.
+
+===============================================
+Plan de Prueba Estructurado
+===============================================
+
+Etapa 1 – Exploración Inicial de la Plataforma
+
+P1:
+Objetivo: Situar al usuario en el contexto de la página principal.
+Pregunta: Imagine que usted está buscando una forma de contribuir a su comunidad y ha ingresado a esta página web. Por favor, observe la página y sus elementos.
+Formato: contexto
+Justificación del Formato: Permite al usuario familiarizarse con la interfaz antes de realizar tareas específicas.
+
+P2:
+Objetivo: Evaluar la perceptibilidad de la información en la página principal.
+Pregunta: Califique de 1 a 5 qué tan fácil le resulta a usted identificar el propósito principal de esta página, donde 1 es "Muy difícil" y 5 es "Muy fácil".
+Formato: escala_likert
+Justificación del Formato: Permite cuantificar la facilidad con la que el usuario comprende el objetivo de la plataforma.
+
+P3:
+Objetivo: Identificar qué elementos llaman más la atención del usuario.
+Pregunta: ¿Qué elemento de la página principal captó más su atención? Por favor, haga un solo clic en ese elemento.
+Formato: click
+Justificación del Formato: Permite identificar las zonas de mayor impacto visual en la interfaz.
+
+Etapa 2 – Navegación y Usabilidad Básica
+
+P4:
+Objetivo: Evaluar la claridad y la ergonomía cognitiva en la navegación.
+Pregunta: ¿Qué tan claro fue para usted el proceso para encontrar información sobre las oportunidades de voluntariado disponibles?
+Formato: texto
+Justificación del Formato: Permite al usuario expresar libremente su experiencia con la navegación, identificando puntos de fricción o confusión.
+
+P5:
+Objetivo: Evaluar la eficiencia cognitiva del flujo de búsqueda.
+Pregunta: Califique de 1 a 5 qué tan intuitivo le pareció el proceso para buscar y seleccionar una oportunidad de voluntariado, donde 1 es "Poco intuitivo" y 5 es "Muy intuitivo".
+Formato: escala_likert
+Justificación del Formato: Mide de manera cuantitativa la facilidad de uso del flujo de búsqueda.
+
+P6:
+Objetivo: Evaluar la organización y categorización de las oportunidades de voluntariado.
+Pregunta: Organice las siguientes tarjetas dentro de los grupos que usted considere más lógicos según su criterio personal.
+Formato: card_sorting
+Justificación del Formato: Evalúa si la estructura de información coincide con el modelo mental del usuario.
+Categorías: [Hogar de Ancianos, Comedor Infantil, Huella Ecológica, Adopción de animales]
+Tarjetas: [Donación de Alimentos,  Apoyo en actividades, Reciclaje de Papel, Campaña de Concientización]
+
+Etapa 3 – Innovación y Mejoras
+
+P7:
+Objetivo: Aplicar la técnica SIT de Sustracción para simplificar el flujo de búsqueda.
+Pregunta: Si usted pudiera eliminar un paso del proceso de búsqueda de voluntariado para hacerlo más rápido, ¿cuál sería?
+Formato: texto
+Justificación del Formato: Aplica la técnica de sustracción para identificar componentes no esenciales en el flujo.
+
+P8:
+Objetivo: Aplicar la técnica SIT de Unificación de Tareas para consolidar funcionalidades.
+Pregunta: ¿Qué elemento o función ya existente en la plataforma podría usted usar para facilitar la comunicación con otros voluntarios?
+Formato: texto
+Justificación del Formato: Busca oportunidades para unificar tareas y mejorar la eficiencia de la plataforma.

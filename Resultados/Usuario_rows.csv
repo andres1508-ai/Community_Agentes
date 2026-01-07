@@ -1,0 +1,7 @@
+id_usuario,nombre,rol,especialidad,telefono,calificacion,email,cant_test,empresa
+33bba6a5-7d48-483d-a767-fdb8a47831f2,Maria Paz Hernandez,tester,Diseño y Sociología,3202304079,M,maria.paz.hernandez@segurosbolivar.com,1,Seguros Bolivar
+43aa2c5c-cc2d-4d5d-8e45-1f644d12a7e6,Daniel Salazar,tester,Estrategia e investigación de usuario,3125280042,M,daniel.salazar@davivienda.com,1,Davivienda
+526dfafe-bf21-423c-8691-591880b6d616,Isabella Florez,tester,Usuario y estrategia comunicativa,3118718228,M,isabella.florez@davivienda.com,1,Davivienda
+5bdda1da-89d0-42e7-819f-0c170566d803,Paula Cuellar,tester,Diseño Industrial,3123162618,M,paula.cuellar@segurosbolivar.com,1,Seguros Bolívar
+8b5bbfb4-a637-4c60-80a7-7446dcad04e2,Valeria Lozano,tester,Usuario y Estrategia,3152719862,M,valeria.lozano@constructorabolivar.com,1,Constructora Bolívar
+e2ff93f7-bd89-4ecf-9ec1-671f7855c264,Luis Fernando Lee,tester,Desarrollo front end,3053277799,M,luis.lee@constructorabolivar.com,1,Constructora Bolívar

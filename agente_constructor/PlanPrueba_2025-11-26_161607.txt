@@ -1,0 +1,136 @@
+Título de la Prueba: Propuesta Plataforma FBD
+Descripción General: Evaluar la usabilidad y diseño de la plataforma FBD, identificando fricciones y oportunidades de mejora en el flujo de uso.
+
+===============================================
+Metadatos de la Prueba
+===============================================
+Flujo Digital: Plataforma FBD
+Autor: None
+Compañía: FBD
+Línea de Negocio: None
+Tipo de Prueba: None
+Tallaje Estimado: L (Large - 16+ preguntas)
+Fecha Inicio: None
+Fecha Fin: None
+
+===============================================
+Contexto del Brief
+===============================================
+El proyecto busca desarrollar una plataforma digital que conecte a voluntarios con organizaciones sociales, facilitando la participación en actividades de impacto positivo. Se ha identificado la necesidad de crear una experiencia de usuario intuitiva y eficiente que motive a los usuarios a registrarse y participar activamente. Este plan de pruebas tiene como objetivo evaluar la usabilidad de la plataforma, desde la primera impresión hasta la realización de tareas clave como el registro y la búsqueda de oportunidades de voluntariado.
+
+La prueba se centrará en validar la hipótesis de que un diseño centrado en el usuario, con una navegación clara y una presentación de información concisa, aumentará la satisfacción y el compromiso de los community testers. Se busca identificar áreas de mejora en la interfaz y el flujo de interacción, con el fin de optimizar la experiencia general y garantizar que la plataforma cumpla con las expectativas y necesidades de los usuarios. Se aplicarán técnicas SIT para generar ideas innovadoras que mejoren la experiencia del usuario.
+
+===============================================
+Plan de Prueba Estructurado
+===============================================
+
+Etapa 1 – Descubrimiento Inicial de la Plataforma
+
+P1:
+Objetivo: Introducir al usuario al contexto del sitio web.
+Pregunta: Imagine que usted está buscando una plataforma para encontrar oportunidades de voluntariado. A continuación, tómese un momento para explorar la página principal de la plataforma y familiarizarse con su contenido.
+Formato: contexto
+Justificación del Formato: Permite una exploración libre y natural, evitando sesgos iniciales.
+
+P2:
+Objetivo: Evaluar la perceptibilidad de los elementos visuales en la página principal.
+Pregunta: Califique de 1 a 5 qué tan fácil le resultó identificar la propuesta de valor de la plataforma, donde 1 es "Muy difícil" y 5 es "Muy fácil".
+Formato: escala_likert
+Justificación del Formato: Cuantifica la claridad y el atractivo del mensaje principal del sitio.
+
+P3:
+Objetivo: Evaluar la jerarquía visual y el llamado a la acción principal.
+Pregunta: ¿Dónde haría clic usted primero para encontrar una oportunidad de voluntariado en esta plataforma? Realice un solo clic.
+Formato: click
+Justificación del Formato: Permite determinar si el botón o enlace principal destaca visualmente y es intuitivo.
+
+P4:
+Objetivo: Evaluar la ergonomía cognitiva y carga mental al observar la home
+Pregunta: ¿Le pareció a usted que la cantidad de información presentada en la página principal era excesiva, adecuada o insuficiente?
+Formato: escala_likert
+Justificación del Formato: Permite determinar si la carga cognitiva es adecuada, evitando sobrecargar al usuario.
+Leyenda: 1 es "Excesiva", 3 es "Adecuada" y 5 es "Insuficiente".
+
+Etapa 2 – Flujo de Registro (User Onboarding)
+
+P5:
+Objetivo: Preparar al usuario para el flujo de registro.
+Pregunta: A continuación, usted deberá registrarse en la plataforma. Por favor, prepárese para crear una cuenta nueva.
+Formato: contexto
+Justificación del Formato: Prepara al usuario para el siguiente flujo.
+
+P6:
+Objetivo: Evaluar la claridad de las instrucciones y los campos del formulario de registro (Ergonomía Cognitiva).
+Pregunta: ¿Le quedó claro a usted el propósito de cada campo solicitado en el formulario de registro?
+Formato: escala_likert
+Justificación del Formato: Mide la comprensión de los campos solicitados, vital para reducir la fricción.
+Leyenda: Califique de 1 a 5, donde 1 es "Nada claro" y 5 es "Totalmente claro".
+
+P7:
+Objetivo: Evaluar la operabilidad del formulario de registro (Ergonomía Física).
+Pregunta: ¿Qué tan fácil fue para usted completar el formulario de registro utilizando los elementos de la interfaz, como los campos de texto y los botones?
+Formato: escala_likert
+Justificación del Formato: Cuantifica la facilidad de interacción con los elementos del formulario.
+Leyenda: Califique de 1 a 5, donde 1 es "Muy difícil" y 5 es "Muy fácil".
+
+P8:
+Objetivo: Medir la fricción y detectar puntos de abandono en el flujo de registro.
+Pregunta: Por favor, complete el proceso de registro ingresando sus datos simulados hasta llegar a la confirmación de la cuenta. Esta pregunta grabará su pantalla para que podamos ver cómo navega y si encuentra algún obstáculo o punto de fricción.
+Formato: pantalla
+Justificación del Formato: Permite identificar visualmente los puntos de fricción y abandono en el flujo.
+
+P9:
+Objetivo: Aplicar Innovación SIT (Técnica de Sustracción) para optimizar el flujo.
+Pregunta: Si usted pudiera eliminar un campo de información solicitado en el formulario de registro para hacerlo más rápido, ¿cuál sería?
+Formato: texto
+Justificación del Formato: Busca insights para aplicar la técnica de sustracción (eliminar componentes no esenciales) y reducir la fricción.
+
+Etapa 3 – Búsqueda y Selección de Oportunidades
+
+P10:
+Objetivo: Introducir al usuario al flujo de búsqueda de oportunidades.
+Pregunta: Ahora, imagine que ya está registrado en la plataforma. Por favor, explore las opciones disponibles para encontrar actividades de voluntariado.
+Formato: contexto
+Justificación del Formato: Sitúa al usuario en el contexto de búsqueda.
+
+P11:
+Objetivo: Evaluar el modelo mental del usuario respecto a las categorías de voluntariado (Ergonomía Cognitiva).
+Pregunta: Organice las siguientes tarjetas dentro de los grupos que usted considere más lógicos según su criterio personal.
+Formato: card_sorting
+Justificación del Formato: Verifica si la arquitectura de información coincide con cómo el usuario las entiende.
+Categorías: [Medio Ambiente, Educación, Salud, Animales]
+Tarjetas: [Reforestación, Tutorías Online, Visitas a Hospitales, Rescate Animal]
+
+P12:
+Objetivo: Medir la eficiencia en la búsqueda de una tarea específica (Ergonomía Cognitiva).
+Pregunta: ¿Le resultó fácil o difícil encontrar una actividad de voluntariado relacionada con la educación?
+Formato: diferencia_semantica
+Justificación del Formato: Mide la percepción de facilidad en la búsqueda de un tipo específico de actividad.
+Categoría: (Fácil vs. Difícil)
+
+P13:
+Objetivo: Identificar zonas de interés y elementos ignorados en la página de resultados de búsqueda (Ergonomía Física).
+Pregunta: Si usted estuviera listo para aplicar a una actividad de voluntariado, ¿dónde haría clic en esta página?
+Formato: click
+Justificación del Formato: Identifica visualmente los elementos que atraen la atención del usuario.
+
+Etapa 4 – Evaluación General y Sugerencias
+
+P14:
+Objetivo: Permitir al usuario expresar sus opiniones y sugerencias sobre la plataforma (Innovación SIT - Multiplicación).
+Pregunta: ¿Qué nuevas funcionalidades le gustaría a usted que se agregaran a la plataforma para mejorar su experiencia de voluntariado?
+Formato: texto
+Justificación del Formato: Busca ideas para aplicar la técnica de multiplicación (añadir componentes o funcionalidades).
+
+P15:
+Objetivo: Evaluar la satisfacción general del usuario con la plataforma.
+Pregunta: En general, ¿qué tan satisfecho está usted con la experiencia de usar esta plataforma para encontrar oportunidades de voluntariado?
+Formato: escala_likert
+Justificación del Formato: Mide la satisfacción general del usuario con la plataforma.
+Leyenda: Califique de 1 a 5, donde 1 es "Muy insatisfecho" y 5 es "Muy satisfecho".
+
+P16:
+Objetivo: Identificar áreas de mejora en la experiencia general (Innovación SIT - Dependencia de Atributos).
+Pregunta: ¿Cómo podría usted personalizar la plataforma para que se ajuste mejor a sus preferencias y necesidades individuales de voluntariado?
+Formato: texto
+Justificación del Formato: Busca insights para aplicar la técnica de dependencia de atributos (adaptación al perfil del usuario).

@@ -1,0 +1,98 @@
+Título de la Prueba: Plataforma voluntariado Fundación
+Descripción General: Evaluación de usabilidad enfocada en validar la conexión emocional, la facilidad de registro y la pertinencia cultural del lenguaje en la nueva plataforma de voluntariado.
+
+===============================================
+Metadatos de la Prueba
+===============================================
+Flujo Digital: Portal de voluntariado FBD (Registro y Búsqueda)
+Autor: Erika Trespalacios
+Compañía: Fundación Bolívar Davivienda
+Línea de Negocio: Fundación Bolívar Davivienda
+Tipo de Prueba: Usabilidad / Validación de Hipótesis Cultural
+Tallaje Estimado: M (Medium)
+Fecha Inicio: 13 de noviembre de 2025
+Fecha Fin: 27 de noviembre de 2025
+
+===============================================
+Contexto del Brief
+===============================================
+La Fundación busca validar si un diseño "contextual-cultural" (adaptado al lenguaje y región del usuario) incrementa el sentido de pertenencia y la motivación. Se busca reducir la fricción en el registro (percibido como largo) y asegurar que los voluntarios sientan que la plataforma les habla a ellos, aumentando así la participación.
+
+===============================================
+Plan de Prueba Estructurado
+===============================================
+
+Etapa 1 – Primera Impresión y Conexión Cultural
+
+P1:
+Objetivo: Situar al usuario en el escenario de uso (Home) sin sesgos técnicos.
+Pregunta: Imagine que usted tiene interés en apoyar una causa social y ha llegado a esta página principal. Por favor, tómese un momento para observar lo que se presenta en pantalla.
+Formato: contexto
+Justificación del Formato: Necesario para que el usuario explore la interfaz visual antes de realizar tareas.
+
+P2:
+Objetivo: Evaluar la ergonomía cognitiva (perceptibilidad) y la jerarquía visual del CTA principal.
+Pregunta: Basado en su primera impresión, ¿dónde haría clic usted para comenzar a buscar una actividad de voluntariado? Realice un solo clic.
+Formato: click
+Justificación del Formato: Permite identificar si el llamado a la acción es intuitivo y visible según el mapa de calor.
+
+P3:
+Objetivo: Validar la hipótesis de "Diseño Contextual-Cultural" y la conexión emocional.
+Pregunta: ¿Cómo percibe usted el lenguaje y las imágenes de esta pantalla inicial en relación con su entorno cultural o regional?
+Formato: diferencia_semantica
+Justificación del Formato: Mide la percepción subjetiva de pertenencia, clave para la hipótesis del brief.
+Categoría: (Ajeno a mi cultura vs. Cercano a mi cultura)
+
+P4:
+Objetivo: Evaluar la ergonomía física (confort visual) de los elementos gráficos.
+Pregunta: Califique de 1 a 5 qué tan cómoda es para usted la lectura de los textos y la visualización de los iconos, donde 1 es "Muy incómodo/difícil de leer" y 5 es "Muy cómodo/fácil de leer".
+Formato: escala_likert
+Justificación del Formato: Cuantifica el esfuerzo visual requerido, alineado con el estudio de aspectos visibles y táctiles.
+
+Etapa 2 – El Reto del Registro (Evaluación de Fricción)
+
+P5:
+Objetivo: Preparar al usuario para una tarea crítica con medición de eficiencia (Punto de dolor identificado: Registro largo).
+Pregunta: A continuación, usted deberá crear una cuenta nueva en la plataforma. Para la siguiente tarea, usted tendrá un límite de 3 minutos para completar el formulario. Por favor, prepárese antes de continuar.
+Formato: contexto
+Justificación del Formato: Establece el escenario y la restricción de tiempo para medir la fluidez del flujo crítico.
+
+P6:
+Objetivo: Medir la operabilidad y detectar errores en el flujo de registro (Ergonomía Física y Cognitiva).
+Pregunta: Por favor, complete el proceso de registro ingresando sus datos simulados hasta llegar a la confirmación de la cuenta. Esta pregunta grabará su pantalla para que podamos ver cómo navega y si encuentra algún obstáculo.
+Formato: pantalla
+Justificación del Formato: Es vital observar dónde se detiene el usuario o si comete errores en el formulario, dado que es un punto de abandono alto.
+
+P7:
+Objetivo: Evaluar la carga mental percibida después de la tarea (Ergonomía Cognitiva).
+Pregunta: ¿Qué tan exigente mentalmente fue para usted completar el formulario de datos básicos? Califique de 1 a 5, donde 1 es "Muy exigente/confuso" y 5 es "Muy sencillo/claro".
+Formato: escala_likert
+Justificación del Formato: Valida si la percepción de "formulario largo" o "engorroso" mencionada en el brief persiste.
+
+Etapa 3 – Perfilamiento y Pertinencia (Innovación SIT)
+
+P8:
+Objetivo: Introducción a la sección de intereses (Chips/Tags).
+Pregunta: Ahora que ha creado su cuenta, queremos saber qué causas le interesan. Imagine que quiere configurar su perfil para recibir recomendaciones.
+Formato: contexto
+Justificación del Formato: Transición narrativa hacia el perfilamiento.
+
+P9:
+Objetivo: Validar el modelo mental de las categorías de voluntariado (Ergonomía Cognitiva).
+Pregunta: Organice las siguientes tarjetas dentro de los grupos que usted considere más lógicos según su criterio personal.
+Formato: card_sorting
+Justificación del Formato: Verifica si la arquitectura de información de las causas coincide con cómo el usuario las entiende.
+Categorías: [Impacto Social, Medio Ambiente, Educación, Ayuda Humanitaria]
+Tarjetas: [Sembratón, Tutorías Escolares, Donación de Ropa, Construcción de Viviendas, Mentoria Profesional, Limpieza de Playas]
+
+P10:
+Objetivo: Aplicar Innovación SIT (Técnica de Sustracción) para optimizar el flujo.
+Pregunta: Si usted pudiera eliminar un paso o dato solicitado durante todo el proceso que acaba de realizar para hacerlo más ágil sin perder seguridad, ¿cuál sería?
+Formato: texto
+Justificación del Formato: Busca insights para aplicar la técnica de sustracción (eliminar componentes no esenciales) y reducir la fricción.
+
+P11:
+Objetivo: Medir la satisfacción general y la probabilidad de retorno (Cierre).
+Pregunta: Basado en su experiencia hoy, ¿qué tan probable es que usted recomiende esta plataforma a un compañero de trabajo? Califique de 1 a 5, donde 1 es "Nada probable" y 5 es "Muy probable".
+Formato: escala_likert
+Justificación del Formato: KPI estándar (NPS estimado) para medir la lealtad y el éxito de la experiencia global.

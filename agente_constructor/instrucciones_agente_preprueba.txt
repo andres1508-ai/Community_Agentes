@@ -1,0 +1,98 @@
+AGENTE ESTRUCTURADOR INTEGRAL - Community Tester
+Instrucciones de uso (sin codigo)
+
+1. Proposito
+- Generar planes de prueba de usabilidad completos a partir de un brief y, opcionalmente, un prototipo de Figma.
+
+2. Requisitos previos
+- Variables de entorno: GEMINI_API_KEY obligatoria; FIGMA_TOKEN opcional para extraer pantallas del prototipo.
+- Archivos de entrada: brief en texto; enlace de Figma (opcional) en formatos /file/, /proto/ o /design/.
+
+3. Flujo general
+- Leer el brief y extraer metadatos: titulo, descripcion, hipotesis, flujo digital, autor, compania, linea de negocio, tipo de prueba, fechas, objetivos, dolores, pantallas mencionadas, contexto de usuario.
+- (Opcional) Conectar a Figma con FIGMA_TOKEN, obtener file_key del URL y listar pantallas principales (frames de nivel superior que no sean iconos o componentes internos).
+- Calcular tallaje segun cantidad de objetivos + dolores: S (5-8 preguntas) si <=3; M (9-15) si <=6; L (16+). 
+- Generar el plan de prueba en texto plano siguiendo la estructura y reglas de redaccion descritas abajo.
+- Guardar el plan como PlanPrueba_<timestamp>.txt.
+
+4. Conocimiento base
+4.1 Ergonomia fisica
+- Perceptibilidad: contraste, legibilidad de texto, iconos reconocibles, feedback visual.
+- Operabilidad (Ley de Fitts): tamano tactil >=44x44 px, espaciado, zonas accesibles al pulgar, gestos naturales, navegacion alcanzable.
+- Consistencia visual: elementos similares lucen similar, colores con significado consistente, tipografia y espaciados uniformes, iconos coherentes.
+- Accesibilidad fisica: uso con una mano, elementos criticos en zonas accesibles, alternativas para limitaciones motrices, tiempo de respuesta adecuado.
+
+4.2 Ergonomia cognitiva
+- Carga cognitiva: informacion manejable, evitar memorizar entre pantallas, instrucciones claras, sin sobrecarga de opciones, formularios con datos necesarios.
+- Modelo mental: flujo predecible y familiar, terminos conocidos, estructura logica, ubicacion y proximo paso claros.
+- Claridad: mensajes entendibles, errores explican causa y solucion, confirmaciones claras, progreso visible, CTA evidentes.
+- Eficiencia: tarea sin ayuda externa, pasos minimos, atajos para frecuentes, info en el momento adecuado.
+
+4.3 Innovacion SIT
+- Sustraccion: eliminar componente esencial y buscar valor en su ausencia.
+- Multiplicacion: duplicar componente con variacion.
+- Division: separar o reorganizar partes.
+- Unificacion de tareas: asignar nueva funcion a elemento existente.
+- Dependencia de atributos: relacionar atributos antes independientes.
+
+5. Formatos permitidos (usar exactamente estos nombres)
+- texto: respuestas abiertas.
+- escala_likert: incluir leyenda numerica (ej. 1= Muy dificil, 5= Muy facil).
+- audio: para pensar en voz alta.
+- pantalla: debe avisar que se grabara y por que.
+- card_sorting: incluir listas "Categorias" y "Tarjetas".
+- diferencia_semantica: un solo par de opuestos (ej. Facil vs. Dificil).
+- click: identificar zona de interes.
+- contexto: introducciones/transiciones; no cuenta como pregunta en tallaje.
+
+6. Reglas de redaccion (obligatorias)
+- Ustedeo: siempre en segunda persona formal.
+- Introducciones amigables sin jerga tecnica ni revelar objetivos.
+- Si hay limite de tiempo, avisar en un contexto previo.
+- Cada pregunta evalua un solo aspecto.
+- Cada pregunta incluye "Justificacion del Formato: ..." con la explicacion tecnica.
+
+7. Estructura del plan (texto plano, sin markdown)
+- Titulo de la Prueba
+- Descripcion General
+
+Metadatos de la Prueba
+- Flujo Digital / Autor / Compania / Linea de Negocio / Tipo de Prueba / Tallaje / Fecha Inicio / Fecha Fin
+
+Contexto del Brief
+- 2-3 parrafos explicando hipotesis y contexto.
+
+Plan de Prueba Estructurado
+- Agrupar por etapas: "Etapa X – Nombre descriptivo".
+- Cada etapa inicia con una pregunta formato contexto.
+- Formato por pregunta:
+  P[n]:
+  Objetivo: (interno, no visible)
+  Pregunta: (en usted)
+  Formato: (uno de los permitidos)
+  Justificacion del Formato: (explicacion tecnica)
+  Notas especiales:
+    * escala_likert: incluir "de 1 a 5, donde 1 es X y 5 es Y" en la pregunta.
+    * card_sorting: agregar lineas Categorias: [...] y Tarjetas: [...].
+    * diferencia_semantica: agregar linea Categoria: (X vs. Y).
+    * pantalla: explicar en la pregunta que se grabara y por que.
+
+8. Reglas de generacion
+- Usar al menos 5 formatos diferentes.
+- Mezclar preguntas de ergonomia fisica y cognitiva.
+- Incluir 2-3 preguntas de innovacion SIT (sustraccion, multiplicacion, division, unificacion, dependencia de atributos) al final.
+- Incluir al menos 1 card_sorting y 1 diferencia_semantica.
+- Los contextos no usan jerga tecnica.
+- Si hay tarea con tiempo, el contexto anterior lo comunica.
+
+9. Ejemplo de formato (fragmento)
+Etapa 1 – Primera Impresion y Conexion Cultural
+P1: Objetivo: situar al usuario en el escenario (Home). Pregunta: Imagine que usted tiene interes en apoyar una causa social y ha llegado a esta pagina principal. Tómese un momento para observar lo que se presenta en pantalla. Formato: contexto. Justificacion del Formato: permite exploracion previa.
+P2: Objetivo: evaluar perceptibilidad y jerarquia visual del CTA. Pregunta: Basado en su primera impresion, ¿donde haria clic usted para comenzar a buscar una actividad de voluntariado? Realice un solo clic. Formato: click. Justificacion del Formato: identifica intuicion del CTA.
+P3: Objetivo: validar hipotesis de diseno contextual-cultural. Pregunta: ¿Como percibe usted el lenguaje e imagenes de esta pantalla en relacion con su entorno cultural o regional? Formato: diferencia_semantica. Justificacion del Formato: mide percepcion de pertenencia. Categoria: (Ajeno a mi cultura vs. Cercano a mi cultura).
+P4: Objetivo: evaluar confort visual. Pregunta: Califique de 1 a 5 que tan comoda es para usted la lectura de textos e iconos, donde 1 es "Muy incomodo/dificil" y 5 es "Muy comodo/facil". Formato: escala_likert. Justificacion del Formato: cuantifica esfuerzo visual.
+
+10. Guardado del resultado
+- Nombre sugerido: PlanPrueba_<YYYY-MM-DD_hhmmss>.txt en la carpeta raiz.
+
+Con este documento se conservan las instrucciones clave sin incluir el codigo fuente.
